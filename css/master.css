@@ -16,7 +16,10 @@
 
   body {
     /* set the background color here */
-    background-color: rgb(166, 166, 206);
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: ;
     /* set the text color to black here */
     color: black;
     /* set the font here */
@@ -25,34 +28,41 @@
     text-align: center;
    }
 
+
+
   footer {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
-  h1 {
+  h1 //bigfont for name
+  {
     margin-bottom: 0.5rem;
     margin-top: 3rem;
    }
 
-  h2 {
+  h2 //blue text medium large
+  {
     color: #075AAB;
     /* set both the bottom margin and top margin to 2.5rem here */
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
    }
 
-  h3 {
+  h3 //dark bold
+  {
     margin-bottom: 0;
     margin-top: 2rem;
   }
 
-  h4 {
+  h4 //small bold
+  {
     margin-bottom: 1rem;
     margin-top: 0.5rem;
   }
 
-  h5 {
+  h5
+  {
     margin-top: 0.5rem;
   }
 
@@ -66,4 +76,8 @@
     display: table;
     margin: 0 auto;
     text-align: left;
+  }
+  .a2{
+    image-orientation: left;
+    <img src="images/St. francis Insitute of Technology-10_page-0001.jpg" alt="Achivements" width="20%">
   }
