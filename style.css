@@ -1,0 +1,54 @@
+:root {
+    --bg-color: #0f172a; /* Deep slate dark background */
+    --text-color: #f8fafc;
+    --accent-color: #38bdf8; /* Engineering blue */
+    --card-bg: #1e293b;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 4rem 0;
+    border-bottom: 1px solid #334155;
+}
+
+h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+.subtitle { color: var(--accent-color); font-weight: 600; letter-spacing: 1px; }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    transition: transform 0.3s ease;
+}
+
+.card:hover { transform: translateY(-5px); border-color: var(--accent-color); }
+
+.project-item {
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    border-left: 3px solid var(--accent-color);
+}
+
+footer { text-align: center; padding: 2rem; font-size: 0.8rem; color: #64748b; }
