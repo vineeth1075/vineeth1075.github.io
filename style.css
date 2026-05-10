@@ -23,8 +23,24 @@ body {
 
 header {
     text-align: center;
-    padding: 100px 0;
-    background: radial-gradient(circle at center, #1d1d1f 0%, #000000 100%);
+    padding: 120px 20px; /* Large padding for a premium Apple look */
+    
+    /* BACKGROUND IMAGE SETTINGS */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('D:\PORTFOLIO WEBSITE\vineeth1075.github.io\WhatsApp Image 2026-05-10 at 3.25.57 PM.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+    /* Rounded corners to match the Bento Grid aesthetic */
+    border-radius: 0 0 40px 40px; 
+    border-bottom: 1px solid var(--glass-border);
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    /* Soft shadow to make text pop against the image */
+    text-shadow: 0 10px 20px rgba(0,0,0,0.5); 
 }
 
 h1 { 
